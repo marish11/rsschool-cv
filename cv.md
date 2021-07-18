@@ -49,6 +49,7 @@ function noSpace(x) {
 * Coordinated and supervised all stages of translation projects
 * Performed high-quality translations within the set deadlines
 * Coordinated work of the translation team and ensured their compliance with standards, practices, and policies
+
 ## Education
 **Belarusian State University, Minsk, Belarus**
 
