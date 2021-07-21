@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>Mariya Shokola's CV</title>
+    <script src="https://kit.fontawesome.com/81a0d543bd.js" crossorigin="anonymous"></script>
     <!--add link to CSS-->
 </head>
 <body>
     <main class="main-content">
         <div class="columns">
             <div class="left-column">
+                <img src="image.png" alt="Photo">
                 <!--add image here-->
                 <section>
                     <h2>Contact</h2>
                     <ul class="contact">
-                        <li><i class="">marishokola89@gmail.com</i></li>
-                        <li><i class="">+375333523453</i></li>
-                        <li><i class="">marish11</i></li>
+                        <li><i class="fas fa-envelope fa-fw">&nbsp;marishokola89@gmail.com</i></li>
+                        <li><i class="fas fa-phone-square fa-fw">&nbsp;+375333523453</i></li>
+                        <li><i class="fab fa-github-square fa-fw">&nbsp;github.com/marish11</i></li>
                     </ul>                                   
                 </section>
                 <section>
@@ -73,13 +75,21 @@
                 </section>
                 <section>
                     <h2>Sample Code</h2>
-                    <!--add sample code here-->
+                    <code>
+                       function noSpace(x) {<br>
+                           return x.replace(/\s/g, "");<br>
+                       }                         
+                    </code>
                 </section>
             </div>
         </div>
-        <footer>
-            <!--add GitHub link, year of app creation, course logo, and course link-->
-        </footer>
     </main>
+    <footer>
+        <a href="https://github.com/marish11">GitHub</a>
+        <p><time datetime="2021-07-26">2021</time></p>
+        <a href="https://rs.school/js/">
+            <img src="rs_school_js.svg" alt="school logo" width="110" height="110">
+        </a>
+    </footer>
 </body>
 </html>
