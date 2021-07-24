@@ -1,0 +1,65 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.main-content {
+    width: 960px;
+    margin: 0 auto;
+}
+.columns {
+    display: flex;
+    min-height: 600px;
+}
+.left-column {
+    width: 260px;
+    padding: 60px;
+    background-color: #335384;
+    color: #FFFFFF;
+}
+.right-column {
+    width: 640px;
+    padding: 60px;
+    background-color: #FFFFFF;
+    color: #444440;
+}
+.contact {
+    padding-left: 0;
+    line-height: 2;
+    list-style-type: none;
+}
+.left-column section {
+    margin-top: 60px;
+}
+.right-column section {
+    margin-top: 30px;
+}
+.right-column h2 {
+    color: #5ba7d1;
+}
+h1 {
+    font-size: 2.8em;
+    color: #335384;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+header {
+    margin-bottom: 60px;
+}
+.job-title {
+    font-size: 1.8em;
+}
+.company-year {
+    color: #a09b9c;
+}
+footer {
+    position: relative;
+    top: 280px;
+}
+.non-bullet {
+    padding-left: 0;
+    list-style-type: none;
+}
