@@ -57,9 +57,15 @@ header {
 }
 footer {
     position: relative;
-    top: 280px;
+    top: 290px;
 }
 .non-bullet {
     padding-left: 0;
     list-style-type: none;
+}
+hr {
+    width: 100px;
+    height: 1px;
+    margin-left: 0;
+    background-color: #335384;
 }
