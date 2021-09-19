@@ -6,59 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mariya Shokola's CV</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="https://kit.fontawesome.com/81a0d543bd.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="https://kit.fontawesome.com/81a0d543bd.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
+    <header>
+        <div class="nav-container">
+            <div class="menu-burger">
+                <button class="open-close-button"></button>
+            </div>
+            <nav class="nav-burger">
+                <ul>
+                    <li>
+                        <a href="#profile">Profile</a>
+                    </li>
+                    <li>
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#languages">Languages</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="#profile">Profile</a>
+                    </li>
+                    <li>
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#languages">Languages</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <main class="main-content">
         <div class="columns">
             <div class="left-column">
                 <img src="images/photo.png" alt="Photo">
-                <section>
+                <h2 class="alt-name">Mariya Shokola</h2>
+                <h2 class="alt-job-title">Front-End Developer</h2>
+                <section id="contact">
                     <h2>Contact</h2>
                     <ul class="contact">
                         <li><i class="fas fa-envelope fa-fw">&nbsp;marishokola89@gmail.com</i></li>
                         <li><i class="fas fa-phone-square fa-fw">&nbsp;+375333523453</i></li>
                     </ul>                                   
                 </section>
-                <section>
+                <section id="education">
                     <h2>Education</h2>
                     <h3>Belarusian State University</h3>
                     <p>Faculty of International Relations</p>
                     <p>Bachelor’s Degree in Linguistics, 2012</p>
                 </section>
-                <section>
+                <section id="languages">
                     <h2>Languages</h2>
                     <p>English — C1</p>
                 </section>
-                <footer>
-                    <ul class="non-bullet">
-                        <li>
-                            <p><time datetime="2021-07-26">2021</time></p>
-                        </li>
-                        <li>
-                            <a href="https://github.com/marish11">
-                                <img src="images/GitHub-Mark-32px.png" alt="github logo">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://rs.school/js/">
-                                <img src="images/rs_school_js.svg" alt="school logo" width="80" height="50">
-                            </a>
-                        </li>
-                    </ul>
-                </footer>
             </div>
             <div class="right-column">
-                <header>
-                    <h1>Mariya Shokola</h1>
-                    <h2 class="job-title">Front-End Developer</h2>
-                </header>
+                <h1>Mariya Shokola</h1>
+                <h2 class="job-title">Front-End Developer</h2>
                 <hr>
-                <section>
-                    <h2>Profile</h2>
-                    <p>Localization Specialist with 3+ years of experience in video game localization who contributes to creating a seamless and immersive user experience through delivering high-quality translated content. Known for organizational skills, attention to detail, and commitment to excellence. Motivated and open-minded, easily adapts to changing environments and work processes. Passionate about exploring new technologies. Seeking to forge a new career path as a Front-End Developer.</p>
+                <section id="profile">
+                    <article>
+                        <h2>Profile</h2>
+                        <p>Localization Specialist with 3+ years of experience in video game localization who contributes to creating a seamless and immersive user experience through delivering high-quality translated content. Known for organizational skills, attention to detail, and commitment to excellence. Motivated and open-minded, easily adapts to changing environments and work processes. Passionate about exploring new technologies. Seeking to forge a new career path as a Front-End Developer.</p>
+                    </article>
                 </section>
-                <section>
+                <section id="experience">
                     <h2>Experience</h2>
                     <h3>Localization Specialist</h3>
                     <p class="company-year">Game Stream JLLC, Minsk, Belarus &#448; September 2017–Present</p>
@@ -78,7 +123,7 @@
                         <li>Coordinated work of the translation team and ensured their compliance with standards, practices, and policies</li>
                     </ul>                     
                 </section>
-                <section>
+                <section id="skills">
                     <h2>Skills</h2>
                     <ul>
                         <li>Good knowledge of bug tracking systems: Jira</li>
@@ -86,16 +131,47 @@
                         <li>Basic knowledge of languages: HTML, CSS, and JavaScript</li>
                     </ul>                   
                 </section>
-                <section>
+                <section id="projects">
+                    <h2>Projects</h2>
+                    <h3>Museum — HTML, CSS</h3>
+                    <p class="company-year">The Rolling Scopes School &#448; JS/FE 2021Q3 Pre-School</p>
+                    <p>Landing page for the Louvre</p>
+                    <figure>
+                        <a href="https://rolling-scopes-school.github.io/marish11-JSFEPRESCHOOL/museum/" target="_blank">
+                            <img src="images/museum.png" class="project-image" alt="Museum">
+                        </a>
+                    </figure>
+                </section>
+                <section id="sample-code">
                     <h2>Sample Code</h2>
-                    <code>
-                       function noSpace(x) {<br>
-                           return x.replace(/\s/g, "");<br>
-                       }                         
-                    </code>
+                    <pre>
+                        <code>
+function noSpace(x) {
+    return x.replace(/\s/g, "");
+} 
+                        </code>
+                    </pre>
                 </section>
             </div>
         </div>
     </main>
+    <footer>
+        <ul class="non-bullet">
+            <li>
+                <p><time datetime="2021-07-26">2021</time></p>
+            </li>
+            <li>
+                <a href="https://github.com/marish11">
+                    <img src="images/GitHub-Mark-32px.png" alt="github logo">
+                </a>
+            </li>
+            <li>
+                <a href="https://rs.school/js/">
+                    <img src="images/rs_school_js.svg" alt="school logo" width="80" height="50">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
