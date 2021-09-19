@@ -65,12 +65,12 @@ header {
     width: 30px;
     height: 30px;
     margin: 5px;
-    background-image: url(/images/hamburger-menu-more-navigation.svg);
+    background-image: url(../images/hamburger-menu-more-navigation.svg);
     background-color: transparent;
     border: none;
 }
 .button-open {
-    background-image: url(/images/close.svg);
+    background-image: url(../images/close.svg);
 }
 .menu-open {
     display: block;
