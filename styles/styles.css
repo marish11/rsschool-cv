@@ -141,6 +141,12 @@ footer {
     margin: 0 auto;
     background-color: #C6D9DF;
 }
+.project-image {
+    max-width: 450px;
+}
+pre {
+    max-width: 450px;
+}
 @media (min-width: 771px) {
     .open-close-button {
         display: none;
@@ -164,5 +170,21 @@ footer {
     }
     .right-column {
         max-width: 100%;
+    }
+}
+@media (max-width: 550px) {
+    .project-image {
+        max-width: 400px;
+    }
+    pre {
+        max-width: 400px;
+    }
+}
+@media (max-width: 450px) {
+    .project-image {
+        max-width: 300px;
+    }
+    pre {
+        max-width: 300px;
     }
 }
