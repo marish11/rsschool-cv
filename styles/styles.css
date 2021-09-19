@@ -1,15 +1,20 @@
 html {
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     line-height: 1.5;
     background-color: #e6e6e6;
 }
-.nav-container {
+header {
     max-width: 960px;
     margin: 0 auto;
+}
+.nav-container {
     background-color: #C6D9DF;
 }
 .nav {
@@ -25,10 +30,10 @@ body {
     list-style: none;
 }
 .nav li a {
-    text-decoration: none;
-    color: #335384;
     font-size: 1.5em;
     font-weight: 700;
+    color: #335384;
+    text-decoration: none;
 }
 .nav li:hover {
     background-color: #8db4bf;
@@ -47,22 +52,22 @@ body {
     padding: 0;
 }
 .nav-burger li {
-    list-style: none;
     padding-left: 10px;
+    list-style: none;
 }
 .nav-burger li a {
-    text-decoration: none;
-    color: #335384;
     font-size: 1em;
     font-weight: 600;
+    color: #335384;
+    text-decoration: none;
 }
 .open-close-button {
     width: 30px;
     height: 30px;
-    border: none;
     margin: 5px;
     background-image: url(/images/hamburger-menu-more-navigation.svg);
     background-color: transparent;
+    border: none;
 }
 .button-open {
     background-image: url(/images/close.svg);
@@ -70,33 +75,22 @@ body {
 .menu-open {
     display: block;
 }
-@media (min-width: 751px) {
-    .open-close-button {
-        display: none;
-    }
-}
-@media (max-width: 750px) {
-    .nav {
-        display:none;
-    }
-}
 .main-content {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 .columns {
     display: flex;
-    min-height: 600px;
 }
 .left-column {
-    width: 260px;
-    padding: 60px;
-    background-color: #335384;
+    max-width: 40%;
+    padding: 40px;
+    background-color: #094B72;
     color: #FFFFFF;
 }
 .right-column {
-    width: 640px;
-    padding: 60px;
+    max-width: 70%;
+    padding: 40px;
     background-color: #FFFFFF;
     color: #444440;
 }
@@ -129,10 +123,6 @@ h2 {
 .company-year {
     color: #a09b9c;
 }
-footer {
-    position: relative;
-    top: 290px;
-}
 .non-bullet {
     padding-left: 0;
     list-style-type: none;
@@ -142,4 +132,37 @@ hr {
     height: 1px;
     margin-left: 0;
     background-color: #335384;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #C6D9DF;
+}
+@media (min-width: 771px) {
+    .open-close-button {
+        display: none;
+    }
+    .nav-burger {
+        display: none;
+    }
+}
+@media (max-width: 770px) {
+    .nav {
+        display: none;
+    }
+    .columns {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-column {
+        flex: 1;
+        max-width: 100%;
+    }
+    .right-column {
+        max-width: 100%;
+    }
 }
